@@ -1,0 +1,110 @@
+#navbar {
+	background: #0099CC;
+	color: #FFF;
+	height: 45px;
+	padding-left: 18px;
+	justify-content: center;
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 15px auto; 
+	width: 90%;
+	box-shadow: 0 10px 10px rgba(209, 209, 209, 0.25), 
+			    0 10px 10px rgba(0,0,0,0.22);
+}
+
+#navbar a {
+	display: block;
+	line-height: 45px;
+	padding: 0 14px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+#navbar button {
+	display: block;
+	line-height: 45px;
+	padding: 0 14px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 20px;
+	border: 0em;
+	background: #0099CC;
+}
+
+
+#navbar .header {
+	font-weight: 800;
+}
+
+
+#navbar .left {
+    float: left;
+}
+
+#navbar .right {
+    float: right;
+}
+
+#navbar-menu-icon {
+	display: block;
+}
+
+#navbar .right :hover {
+	color: #ffffff;
+	background: #b6ebfc;
+}
+
+.nav-menu {
+	display: none;
+}
+
+.nav-menu-active{
+	display: block;
+	list-style: none;
+	height: 190px;
+	margin: 15px 60px;	
+	position: absolute;
+	float: right;
+	right: 0;
+	z-index: 1;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 1.5rem;
+	padding-right: 35px;
+	top: 85px;
+}
+
+#input-rating {
+	width: 300px;
+}
+
+.nav-menu-active li {
+	height: 40px;
+	padding: 5px;
+	width: 200px;
+	margin: 5px;
+	background-color: #8ee0fc;
+	border-radius: 1rem;
+	align-items: center;
+	margin-top: 20px;
+	margin-right: 5px;
+	
+}
+
+
+.nav-menu-active li:hover {
+	background-color: #0099CC;
+}
+
+.nav-menu-active a {
+	float: right;
+	padding: 5px;
+	text-decoration: none;
+	font-weight: 600;
+	color: white;
+}
+
+.nav-menu-active a:visited{
+	text-decoration: none;
+	color: white;
+}

@@ -1,0 +1,35 @@
+.search {
+    display: block;
+    height: 60px;
+    width: 80%;
+    margin-top: 15px;
+    right: 0;
+}
+
+.search-bar {
+    border-radius: 1rem;
+    display: inline;
+    width: 300px;
+    float: right;
+    padding: 15px;
+    
+}
+
+.sell{
+    width: 150px;
+    height: 50px;
+    float: left;
+    background-color: #0099CC;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 1rem;
+    margin-top: 5px;
+    box-shadow: 0 10px 10px rgba(175, 175, 175, 0.8);
+}
+
+.sell:hover{
+    background-color:rgb(210, 234, 255)
+}

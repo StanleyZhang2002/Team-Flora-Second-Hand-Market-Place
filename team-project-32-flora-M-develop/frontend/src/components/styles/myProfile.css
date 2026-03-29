@@ -1,0 +1,212 @@
+.profile-body {
+  width: 90%;
+  align-items: center;
+  margin: auto;
+  overflow: hidden;
+}
+
+.info-box {
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 25px 30px;
+  background: rgb(255, 255, 255, 0.8);
+  overflow: hidden;
+  border-radius: 1rem;
+  
+}
+
+.pfp-upload {
+  display: none;
+}
+
+.logo {
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 120px;
+  height: 120px;
+  padding: auto;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  padding-top: 35px;
+  font-size: large;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.logo:hover {
+  cursor: pointer;
+  background-color: #b4b4b4;
+}
+
+.username {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px 10px;
+  font-size: 20px;
+  width: 60%;
+  display: inline-block;
+}
+
+.email {
+  padding: 5px 10px;
+  margin-left: 20px;
+  font-size: 20px;
+  width: 60%;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.listing {
+  height: 510px;
+  padding: 5px 10px;
+  align-items: center;
+}
+
+.posting-body {
+  padding: 5px 5px;
+  width: 49%;
+  float: left;
+  border: 0.5px solid lightblue;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 5px lightblue;
+  height: 485px;
+}
+
+.wishitem-box {
+  padding: 10px 10px;
+  margin-bottom: 3px;
+}
+
+.wishitem-box:hover {
+  border: 0.5px solid lightblue;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 5px lightblue;
+}
+
+.posting-box:hover {
+  border: 0.5px solid lightblue;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 5px lightblue;
+}
+
+.wishlist-body {
+  padding: 5px 5px;
+  width: 48%;
+  float: right;
+  border: 0.5px solid lightblue;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 5px lightblue;
+  height: 485px;
+}
+
+.posting-body {
+  padding: 5px 5px;
+  width: 48%;
+  float: left;
+  border: 0.5px solid lightblue;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 5px lightblue;
+}
+
+.wish-name {
+  text-align: left;
+  font-weight: 800;
+}
+
+.wish-price {
+  text-align: right;
+}
+
+.post-status {
+  text-align: center;
+  padding: 3px 2px;
+  width: 100px;
+  color: white;
+  background-color: #0099cc;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 5px lightblue;
+}
+
+.to-finish {
+  text-align: center;
+  padding: 3px 2px;
+  width: 200px;
+  color: white;
+  background-color: #0099cc;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 5px lightblue;
+  float: left;
+  
+}
+
+.wishes-container {
+  padding: 10px 10px;
+  width: 100%;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.wishes-container li {
+  width: 100%;
+  list-style: none;
+}
+
+.wish-name {
+  font-size: larger;
+}
+
+.wish-price {
+  font-size: larger;
+  float: right;
+}
+.wish-desc {
+  font-size: medium;
+}
+
+.sold-label{
+  display: inline-block;
+  background-color: rgb(162, 23, 23);
+  color: white;
+  font-weight: 600;
+  padding: 5px 8px;
+  width: 55px;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 5px rgb(230, 173, 173);
+  margin-left: 20px;
+}
+
+.for-sell-label{
+  display: inline-block;
+  background-color: green;
+  color: white;
+  font-weight: 600;
+  padding: 5px 8px;
+  width: 90px;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 5px greenyellow;
+  margin-left: 20px;
+}
+
+.you-bought-label{
+  display: inline-block;
+  background-color: orange;
+  color: white;
+  font-weight: 600;
+  padding: 5px 8px;
+  width: 120px;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 5px lightcoral;
+  margin-left: 20px;
+}

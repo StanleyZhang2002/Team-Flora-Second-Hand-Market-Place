@@ -1,0 +1,15 @@
+.sell-form-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.sell-form-img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+input[type="text"] {
+    font-size: 15px;
+}

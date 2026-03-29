@@ -1,0 +1,16 @@
+services:
+    flask:
+      container_name: flask
+      build: ./flask_part
+      network_mode: host
+
+    react:
+      build: ./frontend
+      container_name: react
+      network_mode: host
+      ports:
+        - 3000:3000
+      
+      depends_on:
+        - flask
+      command: npm start
